@@ -1,0 +1,35 @@
+{
+  "name": "@dwlib/base58-encoding",
+  "version": "1.0.0",
+  "description": "Base58 Encoding",
+  "main": "lib/index.js",
+  "exports": {
+    "require": "./lib/index.js",
+    "import": "./lib/index.mjs"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwlib-js/base58-encoding.git"
+  },
+  "keywords": [
+    "base58",
+    "encoding",
+    "decoding"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwlib-js/base58-encoding/issues"
+  },
+  "homepage": "https://github.com/dwlib-js/base58-encoding#readme",
+  "dependencies": {
+    "@dwlib/abstract": "^1.0.2",
+    "@dwlib/internal-slots": "^1.0.0",
+    "@dwlib/primordials": "^1.0.1",
+    "@dwlib/utf8": "^1.0.3"
+  }
+}
